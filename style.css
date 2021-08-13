@@ -5,4 +5,13 @@
 }
 
 body
-{font-family: 'Raleway', Arial;}
+{
+    font-family: 'Raleway', Arial;
+    font-sive: medium;
+
+
+}
+footer
+{
+    background-color: rgb(169,188,204);
+}
