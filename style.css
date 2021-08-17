@@ -1,10 +1,12 @@
+
+
 @font-face
 {
     font-family: 'Raleway';
     src: url('static/Raleway-LightItalic.ttf') format('truetype');
 }
 
-body
+#page
 {
     font-family: 'Raleway', Arial;
     font-sive: medium;
@@ -14,4 +16,9 @@ body
 footer
 {
     background-color: rgb(169,188,204);
+}
+
+#en-tete
+{
+    display: flex;
 }
