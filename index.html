@@ -13,14 +13,14 @@
         <div id="en-tete">
         <h1>Reservia</h1>
         <ul id="menu">
-            <li><a href="#hebergement" class="lien">Hebergement</a></li>
-            <li><a href="#activités" class="lien">Activités</a></li>
+            <li><a href="#element_1" class="lien">Hebergement</a></li>
+            <li><a href="#element_2" class="lien">Activités</a></li>
             <li>S'inscrire</li>
         </ul>
-        <p>Trouvez votre hébergement pour des vacances de rêve
+        <p id="intro">Trouvez votre hébergement pour des vacances de rêve
             <br/>En plein centre ville ou en pleine nature
         </p>
-        <form method="get" action="#">
+        <form method="get" action="#" id="localisation">
             <p>
                 <input type="search" name="rechercher" placeholder="Marseille, France"/>
                 <input type="submit" value="rechercher"/>
@@ -36,8 +36,9 @@
         <li>Animaux autorisés</li>
     </ul>
     </nav>
-    <section>
-        <h2 id="hebergement">Hébergement à Marseille</h2>
+    <div id="midlle">
+    <section id="hebergement">
+        <h2 id="element_1">Hébergement à Marseille</h2>
         <p><a href="#"><img src="5_mini/mini_cannebiere.png" alt="Photo de lit"/></a>Auberge la Cannebière</p>
         <p><a href="#"><img src="5_mini/mini_port.jpg" alt="chambre hôtel"/></a> Hôtel du port</p>
         <p><a href="#"><img src="5_mini/mini_mouettes.jpg" alt="chambre hôtel"/></a>Hôtels les mouettes</p>
@@ -47,7 +48,7 @@
         <p>Afficher plus</p>
     </section>
     
-    <section>
+    <section id="populaires">
         <h2>Les plus populaires</h2>
         <ul>
             <li><a href="#"><img src="5_mini/mini_soleil.jpg" alt="chambre hôtel"/></a>Hôtel Le soleil du matin</li>
@@ -55,9 +56,10 @@
             <li><a href="#"><img src="5_mini/mini_bleu.jpg" alt="chambre hôtel"/></a>Hôtel Tout bleu et Blanc</li>
         </ul>        
     </section>
+    </div>
 
-    <section>
-        <h2 id="activités">Activités à Marseille</h2>
+    <section id="activités">
+        <h2 id="element_2">Activités à Marseille</h2>
         <p><a href="#"><img src="5_mini/mini_vieux.jpg" alt="photo d'un port"/></a>Vieux Port</p>
         <p><a href="#"><img src="5_mini/mini_pomegue.jpg" alt="image d'un fort"/></a>Fort de Pomègues</p>
         <p><a href="#"><img src="5_mini/mini_frioul.jpg" alt="image de l'horizon"/></a>Îles du Frioul</p>
@@ -67,6 +69,7 @@
     </section>
 
     <footer>
+        <div id="pieds_de_page">
         <ul id="a_propos"> 
             <li><strong>A propos</strong></li>
             <li>Fonctionnement du site</li>
@@ -84,6 +87,7 @@
             <li><strong>Assistance</strong></li>
             <li>Nous contacter</li>
         </ul>
+        </div>
     </footer>   
 </div>
 </body>

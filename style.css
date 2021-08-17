@@ -9,16 +9,49 @@
 #page
 {
     font-family: 'Raleway', Arial;
-    font-sive: medium;
-
+    font-size: medium;
 
 }
 footer
 {
-    background-color: rgb(169,188,204);
+    background-color: #F2F2F2;
 }
 
 #en-tete
 {
     display: flex;
+    flex-direction: column;
+}
+
+#menu
+{
+    display: flex;
+    align-self: flex-end; 
+}
+
+#filtres
+{
+    display: flex;
+}
+
+#pieds_de_page
+{
+    display: flex;
+}
+
+#midlle
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+ul
+{
+    list-style-type: none;
+}
+
+#hebergement, #populaires, #activités
+{
+    background-color: #F2F2F2;
+
 }
