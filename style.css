@@ -9,7 +9,7 @@
 #page
 {
     font-family: 'Raleway', Arial;
-    font-size: medium;
+    font-size: small;
 
 }
 footer
@@ -20,13 +20,16 @@ footer
 #en-tete
 {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #menu
 {
     display: flex;
-    align-self: flex-end; 
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
 }
 
 #filtres
@@ -54,4 +57,12 @@ ul
 {
     background-color: #F2F2F2;
 
+}
+#lien_1
+{
+    border-top: 1px #0065FC solid;
+}
+a
+{
+    text-decoration: none;
 }
