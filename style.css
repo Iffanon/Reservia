@@ -45,7 +45,9 @@ footer
 #midlle
 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
 }
 
 ul
@@ -53,11 +55,36 @@ ul
     list-style-type: none;
 }
 
-#hebergement, #populaires, #activités
+#hebergement, #populaires
 {
     background-color: #F2F2F2;
 
 }
+
+#hebergement
+{
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 2%;
+    justify-content: space-around;
+    align-content: space-around;
+    width: 65%;
+    height: 600px;    
+}
+#populaires
+{
+    border-radius: 2%;
+    width: 30%;
+
+}
+
+#activités
+{
+    display: flex;
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+
 #lien_1
 {
     border-top: 1px #0065FC solid;
