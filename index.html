@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c11882c3b4.js" crossorigin="anonymous"></script>
     <title>Reservia</title>
 </head>
 <body>
@@ -12,7 +13,7 @@
     <header>
         <div id="en-tete">
         <p><img src="5_mini/mini_reservia.png" alt="image reservia" id="logo"/></p>
-        <nav id="menu">
+        <nav id="menu">            
             <p><a href="#element_1" class="lien" id="lien_1">Hebergement</a></p>
             <p><a href="#element_2" class="lien" id="lien_2">Activités</a></p>
             <p><a href="#">S'inscrire</a></p>
@@ -23,55 +24,106 @@
          <p>En plein centre ville ou en pleine nature</p>
         <form method="get" action="#" id="localisation">
             <div>                
-                <p>
+                <div>
+                    <div><i class="fas fa-map-marker-alt"></i>
                     <input type="search" name="rechercher" placeholder="Marseille, France"/>
-                   <input type="submit" value="rechercher"/>
-                </p>
+                    <input type="submit" value="rechercher"/>
+                    </div>
+                </div>
             </div>
         </form>
     </div>
     </header>
    <div> 
-    <ul id="filtres">
-        <li><strong>filtres</strong></li>
-        <li>familial</li>
-        <li>Romantique</li>
-        <li>Animaux autorisés</li>
-    </ul>
+    <div id="filtres">
+        <h3 id="bulle_filtre">filtres</h3>
+        <div class="bulle"><i class="fas fa-money-bill-wave"></i><p>Economique</p></div>
+        <div class="bulle"><i class="fas fa-child"></i><p>Familiale</p></div>
+        <div class="bulle"><i class="fas fa-heart"></i><p>Romantique</p></div>
+        <div class="bulle"><i class="fas fa-dog"></i><p>Animaux autorisés</p></div>
+        </div>
    </div>
     <div id="midlle">
-    <section id="hebergement">
+    <div id="hebergement">
         <h2 id="element_1">Hébergement à Marseille</h2>
-        <div><a href="#"><img src="5_mini/auberge_de_la_canne.jpg" alt="Photo de lit" class="image_1"/></a>Auberge la Cannebière</div>
-        <div><a href="#"><img src="5_mini/hotel_port.jpg" alt="chambre hôtel" class="image_1"/></a> Hôtel du port</div>
-        <div><a href="#"><img src="5_mini/hotel_mouettes.jpg" alt="chambre hôtel" class="image_1"/></a>Hôtels les mouettes</div>
-        <div><a href="#"><img src="5_mini/hotel_mer.jpg" alt="chambre hôtel" class="image_1"/></a>Hôtel de la mer</div>
-        <div><a href="#"><img src="5_mini/auberge_panier.jpg" alt="chambre hôtel" class="image_1"/></a>Auberge Le Panier</div>
-        <div><a href="#"><img src="5_mini/hotel_amina.jpg" alt="chambre hôtel" class="image_1"/></a>Hôtel chez Amina</div>
-        <div>Afficher plus</div>
-    </section>
-    
-    <section id="populaires">
-        <h2>Les plus populaires</h2>
+        <section id="bloc_1">
         <div>
-            <div><a href="#"><img src="5_mini/hotel_soleil.jpg" alt="chambre hôtel" class="image_2"/></a>Hôtel Le soleil du matin</div>
-            <div><a href="#"><img src="5_mini/coeur_eau.jpg" alt="chambre" class="image_2"/></a>Au coeur de l'eau Chambres d'hôtes</div>
-            <div><a href="#"><img src="5_mini/hotel_tout_bleu.jpg" alt="chambre hôtel" class="image_2"/></a>Hôtel Tout bleu et Blanc</div>
-        </div>        
-    </section>
+            <a href="#"><img src="5_mini/auberge_de_la_canne.jpg" alt="Photo de lit" class="image_1"/></a>
+            <h3>Auberge la Cannebière</h3>
+        </div>
+        <div>
+            <a href="#"><img src="5_mini/hotel_port.jpg" alt="chambre hôtel" class="image_1"/></a>
+            <h3>Hôtel du port</h3>
+        </div>
+        <div><a href="#"><img src="5_mini/hotel_mouettes.jpg" alt="chambre hôtel" class="image_1"/></a>
+            <h3>Hôtels les mouettes</h3>
+        </div>
+        </section>
+
+        <section id="bloc_2">
+        <div>
+            <a href="#"><img src="5_mini/hotel_mer.jpg" alt="chambre hôtel" class="image_1"/></a>
+            <h3>Hôtel de la mer</h3>
+        </div>
+        <div>
+            <a href="#"><img src="5_mini/auberge_panier.jpg" alt="chambre hôtel" class="image_1"/></a>
+            <h3>Auberge Le Panier</h3>
+        </div>
+        <div>
+            <a href="#"><img src="5_mini/hotel_amina.jpg" alt="chambre hôtel" class="image_1"/></a>
+            <h3>Hôtel chez Amina</h3>
+        </div>
+        <div>Afficher plus</div>
+        </section>
+    </div>
+    
+    <div id="populaires">
+        <h2>Les plus populaires</h2>
+        <section id="bloc_3">
+            <div>
+                <a href="#"><img src="5_mini/hotel_soleil.jpg" alt="chambre hôtel" class="image_2"/></a>
+                <h3>Hôtel Le soleil du matin</h3>
+            </div>
+            <div>
+                <a href="#"><img src="5_mini/coeur_eau.jpg" alt="chambre" class="image_2"/></a>
+                <h3>Au coeur de l'eau Chambres d'hôtes</h3>
+            </div>
+            <div>
+                <a href="#"><img src="5_mini/hotel_tout_bleu.jpg" alt="chambre hôtel" class="image_2"/></a>
+                <h3>Hôtel Tout bleu et Blanc</h3>
+            </div>
+        </section>        
+    </div>
     </div>
 
-    <section id="activités">
+    <div id="activités">
         <h2 id="element_2">Activités à Marseille</h2>
+        <section id="bloc_4">
         <div>
-        <div><a href="#"><img src="5_mini/vieux_port.jpg" alt="photo d'un port" class="image_3"/></div>Vieux Port</p>
-        <div><a href="#"><img src="5_mini/fort_pomegue.jpg" alt="image d'un fort" class="image_3"/></div>Fort de Pomègues</p>
-        <div><a href="#"><img src="5_mini/iles_frioul.jpg" alt="image de l'horizon" class="image_3"/></div>Îles du Frioul</p>
-        <div><a href="#"><img src="5_mini/parc_calanques.jpg" alt="image d'un paysage" class="image_3"/></div>Parc National des Calanques</p>
-        <div><a href="#"><img src="5_mini/dame_de_garde.jpg" alt="image d'une cathédrale" class="image_3"/></div>Notre-Dame-de-la-Garde</p>
-        <div><a href="#"><img src="5_mini/longchamp.jpg" alt="image d'un batiment" class="image_3"/></a>Parc Longchamp</div>
+            <a href="#"><img src="5_mini/vieux_port.jpg" alt="photo d'un port" class="image_3"/></a>
+            <h3>Vieux Port</h3>
         </div>
-    </section>
+        <div>
+            <a href="#"><img src="5_mini/fort_pomegue.jpg" alt="image d'un fort" class="image_3"/></a>
+            <h3>Fort de Pomègues</h3>
+        </div>
+        <div>
+            <a href="#"><img src="5_mini/iles_frioul.jpg" alt="image de l'horizon" class="image_3"/></a>
+                <h3>Îles du Frioul</h3>
+        </div>
+        <div>
+            <a href="#"><img src="5_mini/parc_calanques.jpg" alt="image d'un paysage" class="image_3"/></a>
+                <h3>Parc National des Calanques</h3>
+        </div>
+        <div>
+            <a href="#"><img src="5_mini/dame_de_garde.jpg" alt="image d'une cathédrale" class="image_3"/></a>
+                <h3>Notre-Dame-de-la-Garde</h3>
+        <div>
+            <a href="#"><img src="5_mini/longchamp.jpg" alt="image d'un batiment" class="image_3"/></a>
+            <h3>Parc Longchamp</h3>
+        </div>
+        </section>
+    </div>
 
     <footer>
         <div id="pieds_de_page">
