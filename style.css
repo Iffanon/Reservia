@@ -39,9 +39,23 @@
 .bulle
 {
     border: 3px solid #F2F2F2;
-    border-radius: 25px;
-    height: 50px;
+    border-radius: 40px;
+    height: 35px;
+    width: 190px;
     margin-right: 20px;
+}
+
+.bulle_2
+{
+   border-radius: 25px;
+   color: #0065FC;
+   background-color: #DEEBFF;
+   width: 40px;
+   height: 35px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
 }
 
 #bulle_filtre
@@ -58,7 +72,7 @@
 {
     display: flex;
     justify-content: space-between;
-    margin: 10px;
+    margin-right: 10px;
 
 }
 
@@ -71,17 +85,18 @@
 
 #hebergement
 {
-    display: flex;
     flex: 2;
-    border-radius: 2%;
+    border-radius: 15px;
     justify-content: space-between;
     align-items: center;
     margin-right: 10px;
-    height: 650;    
+    height: 800px;    
 }
 #populaires
 {
-    border-radius: 2%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
     flex: 1;
     margin-left: 5px;
 }
@@ -101,42 +116,68 @@ a
     text-decoration: none;
 }
 
+#element_1
+{
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.image_border
+{
+    border: 3px solid white;
+    background-color: white;
+    border-radius: 20px;
+    width: 220px;
+    height: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
 .image_1
 {
-    width: 100%;
-    height: 100px;
+    width: 200px;
+    height:120px;
 }
 
 .image_2
 {
-    width: 100%;
-    height: 5%;
+    width: 150px;
+    height: 120px;
 }
 
 .image_3
 {
-    width: 100%;
-    height: 80px;
+    width: 300px;
+    height: 140px;
+}
+
+.image_4
+{
+    width: 220px;
+    height: 450px;
 }
 
 #bloc_1
 {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     align-items: center;
-    padding-left: 10px;
-    padding-right: 10px;
+    justify-content: center;
 }
 
 #bloc_2
 {
-    padding-left: 10px;
-    padding-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 
 #bloc_3
 {
     display: flex;
+    flex-direction: column;
 }
