@@ -181,12 +181,6 @@
     height: 800px;
 }
 
-#activités
-{
-    display: flex;
-    align-content: space-between;
-}
-
 #lien_1
 {
     border-top: 1px #0065FC solid;
@@ -328,15 +322,15 @@ a
 
 #activités
 {
-    margin-top: 80px;
+    margin-top: 50px;
     margin-bottom: 30px;
-    width: 900px;
 }
 
 #bloc_4
 {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .image_border_3
@@ -348,14 +342,39 @@ a
     margin-bottom: 10px;
     margin-left: 5px;
     margin-right: 5px;
-    width: 340px;
-    height: 180px;
+    width: 270px;
+    height: 230px;
+    box-shadow: 5px 5px 5px 5px #F2F2F2;
 }
 
 .image_3
 {
-    width: 300px;
-    height: 140px;
+    width: 270px;
+    height: 150px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.image_border_5
+{
+    border: 3px solid white;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 300px;
+    width: 270px;
+    box-shadow: 5px 5px 5px 5px #F2F2F2;
+}
+
+.image_5
+{
+    width: 270px;
+    height: 250px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
 }
 
 .image_border_4
@@ -365,14 +384,51 @@ a
     border-radius: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
-    height: 550px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 490px;
+    width: 270px;
     box-shadow: 5px 5px 5px 5px #F2F2F2;
 }
 
 .image_4
 {
-    width: 300px;
-    height: 500px;
+    width: 270px;
+    height: 440px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
+}
+
+.image_6
+{
+    width: 270px;
+    height: 110px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.image_border_6
+{
+    border: 3px solid white;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 160px;
+    width: 270px;
+    box-shadow: 5px 5px 5px 5px #F2F2F2;
+}
+
+.bloc_6
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#element_2
+{
+    margin-left: 15px;
 }
