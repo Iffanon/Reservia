@@ -10,7 +10,6 @@
 {
     font-family: 'Raleway', Arial;
     font-size: small;
-
 }
 
 #en-tete
@@ -431,4 +430,14 @@ a
 #element_2
 {
     margin-left: 15px;
+}
+
+@media all and (max-device-width: 1024px)
+{
+ div
+    {
+        text-align: left;
+        width: auto;   
+        font-size: 1em;
+    }
 }
